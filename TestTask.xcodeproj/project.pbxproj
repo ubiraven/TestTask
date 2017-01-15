@@ -7,14 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		51AB681BD5A6D373419F7389 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BC5C2065E11F935CC50B8761 /* libPods.a */; };
+		8401BB801B60372C0008DB62 /* CoreDataHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 8401BB7F1B60372C0008DB62 /* CoreDataHelper.m */; };
 		840BEDE81B542DF60018321D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 840BEDE71B542DF60018321D /* main.m */; };
 		840BEDEB1B542DF60018321D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 840BEDEA1B542DF60018321D /* AppDelegate.m */; };
 		840BEDEE1B542DF60018321D /* TestTask.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 840BEDEC1B542DF60018321D /* TestTask.xcdatamodeld */; };
-		840BEDF11B542DF60018321D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 840BEDF01B542DF60018321D /* ViewController.m */; };
 		840BEDF41B542DF60018321D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 840BEDF21B542DF60018321D /* Main.storyboard */; };
 		840BEDF61B542DF60018321D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 840BEDF51B542DF60018321D /* Images.xcassets */; };
 		840BEDF91B542DF60018321D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 840BEDF71B542DF60018321D /* LaunchScreen.xib */; };
 		840BEE051B542DF60018321D /* TestTaskTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 840BEE041B542DF60018321D /* TestTaskTests.m */; };
+		840BEE161B5433390018321D /* TETMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 840BEE151B5433390018321D /* TETMainViewController.m */; };
+		840BEE181B5434510018321D /* infoButton.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 840BEE171B5434510018321D /* infoButton.jpg */; };
+		840BEE1B1B5436610018321D /* TETDetailedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 840BEE1A1B5436610018321D /* TETDetailedViewController.m */; };
+		840BEE1D1B5437DC0018321D /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 840BEE1C1B5437DC0018321D /* MapKit.framework */; };
+		841330D11B655BCC0067A3C5 /* background1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 841330CF1B655BCC0067A3C5 /* background1.jpg */; };
+		8432CE5D1B56D842005D952E /* TETCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8432CE5C1B56D842005D952E /* TETCollectionViewCell.m */; };
+		8454E8961B63C87400AC3DE5 /* Requests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8454E8951B63C87400AC3DE5 /* Requests.m */; };
+		84A0DD5E1B652A0000B1E8E4 /* RespondsForRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A0DD5D1B652A0000B1E8E4 /* RespondsForRequest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,20 +37,36 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		770D77BF5A0B7D38622BD9B5 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		8401BB7E1B60372C0008DB62 /* CoreDataHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataHelper.h; sourceTree = "<group>"; };
+		8401BB7F1B60372C0008DB62 /* CoreDataHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataHelper.m; sourceTree = "<group>"; };
 		840BEDE21B542DF60018321D /* TestTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		840BEDE61B542DF60018321D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		840BEDE71B542DF60018321D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		840BEDE91B542DF60018321D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		840BEDEA1B542DF60018321D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		840BEDED1B542DF60018321D /* TestTask.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TestTask.xcdatamodel; sourceTree = "<group>"; };
-		840BEDEF1B542DF60018321D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		840BEDF01B542DF60018321D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		840BEDF31B542DF60018321D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		840BEDF51B542DF60018321D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		840BEDF81B542DF60018321D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		840BEDFE1B542DF60018321D /* TestTaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestTaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		840BEE031B542DF60018321D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		840BEE041B542DF60018321D /* TestTaskTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestTaskTests.m; sourceTree = "<group>"; };
+		840BEE141B5433390018321D /* TETMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TETMainViewController.h; sourceTree = "<group>"; };
+		840BEE151B5433390018321D /* TETMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TETMainViewController.m; sourceTree = "<group>"; };
+		840BEE171B5434510018321D /* infoButton.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = infoButton.jpg; sourceTree = "<group>"; };
+		840BEE191B5436610018321D /* TETDetailedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TETDetailedViewController.h; sourceTree = "<group>"; };
+		840BEE1A1B5436610018321D /* TETDetailedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TETDetailedViewController.m; sourceTree = "<group>"; };
+		840BEE1C1B5437DC0018321D /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		841330CF1B655BCC0067A3C5 /* background1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background1.jpg; sourceTree = "<group>"; };
+		8432CE5B1B56D842005D952E /* TETCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TETCollectionViewCell.h; sourceTree = "<group>"; };
+		8432CE5C1B56D842005D952E /* TETCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TETCollectionViewCell.m; sourceTree = "<group>"; };
+		8454E8941B63C87400AC3DE5 /* Requests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Requests.h; sourceTree = "<group>"; };
+		8454E8951B63C87400AC3DE5 /* Requests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Requests.m; sourceTree = "<group>"; };
+		84A0DD5C1B652A0000B1E8E4 /* RespondsForRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RespondsForRequest.h; sourceTree = "<group>"; };
+		84A0DD5D1B652A0000B1E8E4 /* RespondsForRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RespondsForRequest.m; sourceTree = "<group>"; };
+		BC5C2065E11F935CC50B8761 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF14A36EF1ECD403294AE213 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +74,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				840BEE1D1B5437DC0018321D /* MapKit.framework in Frameworks */,
+				51AB681BD5A6D373419F7389 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,12 +89,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8401BB771B60363D0008DB62 /* coredata */ = {
+			isa = PBXGroup;
+			children = (
+				8401BB7E1B60372C0008DB62 /* CoreDataHelper.h */,
+				8401BB7F1B60372C0008DB62 /* CoreDataHelper.m */,
+				840BEDEC1B542DF60018321D /* TestTask.xcdatamodeld */,
+				84A0DD5C1B652A0000B1E8E4 /* RespondsForRequest.h */,
+				84A0DD5D1B652A0000B1E8E4 /* RespondsForRequest.m */,
+				8454E8941B63C87400AC3DE5 /* Requests.h */,
+				8454E8951B63C87400AC3DE5 /* Requests.m */,
+			);
+			name = coredata;
+			sourceTree = "<group>";
+		};
 		840BEDD91B542DF60018321D = {
 			isa = PBXGroup;
 			children = (
+				840BEE1C1B5437DC0018321D /* MapKit.framework */,
 				840BEDE41B542DF60018321D /* TestTask */,
 				840BEE011B542DF60018321D /* TestTaskTests */,
 				840BEDE31B542DF60018321D /* Products */,
+				A9488008E6DB9897BDA7A6A3 /* Pods */,
+				D4B362DEF7BEF50C93AAFF44 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,14 +127,18 @@
 		840BEDE41B542DF60018321D /* TestTask */ = {
 			isa = PBXGroup;
 			children = (
+				8401BB771B60363D0008DB62 /* coredata */,
 				840BEDE91B542DF60018321D /* AppDelegate.h */,
 				840BEDEA1B542DF60018321D /* AppDelegate.m */,
-				840BEDEF1B542DF60018321D /* ViewController.h */,
-				840BEDF01B542DF60018321D /* ViewController.m */,
+				840BEE141B5433390018321D /* TETMainViewController.h */,
+				840BEE151B5433390018321D /* TETMainViewController.m */,
+				840BEE191B5436610018321D /* TETDetailedViewController.h */,
+				840BEE1A1B5436610018321D /* TETDetailedViewController.m */,
+				8432CE5B1B56D842005D952E /* TETCollectionViewCell.h */,
+				8432CE5C1B56D842005D952E /* TETCollectionViewCell.m */,
 				840BEDF21B542DF60018321D /* Main.storyboard */,
 				840BEDF51B542DF60018321D /* Images.xcassets */,
 				840BEDF71B542DF60018321D /* LaunchScreen.xib */,
-				840BEDEC1B542DF60018321D /* TestTask.xcdatamodeld */,
 				840BEDE51B542DF60018321D /* Supporting Files */,
 			);
 			path = TestTask;
@@ -99,6 +147,8 @@
 		840BEDE51B542DF60018321D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				841330CF1B655BCC0067A3C5 /* background1.jpg */,
+				840BEE171B5434510018321D /* infoButton.jpg */,
 				840BEDE61B542DF60018321D /* Info.plist */,
 				840BEDE71B542DF60018321D /* main.m */,
 			);
@@ -122,6 +172,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		A9488008E6DB9897BDA7A6A3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				770D77BF5A0B7D38622BD9B5 /* Pods.debug.xcconfig */,
+				EF14A36EF1ECD403294AE213 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D4B362DEF7BEF50C93AAFF44 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BC5C2065E11F935CC50B8761 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -129,9 +196,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 840BEE081B542DF60018321D /* Build configuration list for PBXNativeTarget "TestTask" */;
 			buildPhases = (
+				327E68BE38C05F4F3817D584 /* Check Pods Manifest.lock */,
 				840BEDDE1B542DF60018321D /* Sources */,
 				840BEDDF1B542DF60018321D /* Frameworks */,
 				840BEDE01B542DF60018321D /* Resources */,
+				F3FF70BDD0B14814A00016CE /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -203,6 +272,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				840BEDF41B542DF60018321D /* Main.storyboard in Resources */,
+				841330D11B655BCC0067A3C5 /* background1.jpg in Resources */,
+				840BEE181B5434510018321D /* infoButton.jpg in Resources */,
 				840BEDF91B542DF60018321D /* LaunchScreen.xib in Resources */,
 				840BEDF61B542DF60018321D /* Images.xcassets in Resources */,
 			);
@@ -217,15 +288,53 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		327E68BE38C05F4F3817D584 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F3FF70BDD0B14814A00016CE /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		840BEDDE1B542DF60018321D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8432CE5D1B56D842005D952E /* TETCollectionViewCell.m in Sources */,
 				840BEDEB1B542DF60018321D /* AppDelegate.m in Sources */,
 				840BEDEE1B542DF60018321D /* TestTask.xcdatamodeld in Sources */,
-				840BEDF11B542DF60018321D /* ViewController.m in Sources */,
+				8401BB801B60372C0008DB62 /* CoreDataHelper.m in Sources */,
+				840BEE1B1B5436610018321D /* TETDetailedViewController.m in Sources */,
+				84A0DD5E1B652A0000B1E8E4 /* RespondsForRequest.m in Sources */,
+				840BEE161B5433390018321D /* TETMainViewController.m in Sources */,
 				840BEDE81B542DF60018321D /* main.m in Sources */,
+				8454E8961B63C87400AC3DE5 /* Requests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,7 +410,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -337,7 +446,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -347,8 +456,10 @@
 		};
 		840BEE091B542DF60018321D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 770D77BF5A0B7D38622BD9B5 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = TestTask/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -357,8 +468,10 @@
 		};
 		840BEE0A1B542DF60018321D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF14A36EF1ECD403294AE213 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = TestTask/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -418,6 +531,7 @@
 				840BEE0A1B542DF60018321D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		840BEE0B1B542DF60018321D /* Build configuration list for PBXNativeTarget "TestTaskTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +540,7 @@
 				840BEE0D1B542DF60018321D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
